@@ -18,7 +18,13 @@ struct ContentView: View {
                 .offset(x: -70, y: -30)
                 .frame(width: 200, height: 300)
                 .clipped()
+                .overlay(
             Text("Hello, World!")
+                .font(.title)
+                .fontWeight(.light)
+                .foregroundColor(Color.white)
+                    .offset(x: 0, y: -50)
+            )
         }
     }
 }
