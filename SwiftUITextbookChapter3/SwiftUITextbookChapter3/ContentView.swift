@@ -15,6 +15,7 @@ struct ContentView: View {
                 .resizable()
                 .aspectRatio(contentMode: .fill)
                 .scaleEffect(1.8)
+                .offset(x: -70, y: -30)
                 .frame(width: 200, height: 300)
                 .clipped()
             Text("Hello, World!")
