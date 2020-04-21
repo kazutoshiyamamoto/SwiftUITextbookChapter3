@@ -15,6 +15,7 @@ struct ContentView: View {
                 .resizable()
                 .aspectRatio(contentMode: .fill)
                 .frame(width: 200, height: 300)
+                .clipped()
             Text("Hello, World!")
         }
     }
