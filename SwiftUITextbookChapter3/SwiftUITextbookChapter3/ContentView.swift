@@ -19,11 +19,11 @@ struct ContentView: View {
                 .frame(width: 200, height: 300)
                 .clipped()
                 .overlay(
-            Text("Hello, World!")
-                .font(.title)
-                .fontWeight(.light)
-                .foregroundColor(Color.white)
-                    .offset(x: 0, y: -50)
+                    Text("Hello, World!")
+                        .font(.title)
+                        .fontWeight(.light)
+                        .foregroundColor(Color.white)
+                        .offset(x: 0, y: -50)
             )
         }
     }
