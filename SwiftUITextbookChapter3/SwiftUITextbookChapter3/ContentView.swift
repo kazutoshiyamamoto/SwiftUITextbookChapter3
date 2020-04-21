@@ -14,6 +14,7 @@ struct ContentView: View {
             Image("画像")
                 .resizable()
                 .aspectRatio(contentMode: .fill)
+                .scaleEffect(1.8)
                 .frame(width: 200, height: 300)
                 .clipped()
             Text("Hello, World!")
