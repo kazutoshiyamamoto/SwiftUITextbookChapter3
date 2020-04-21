@@ -13,6 +13,7 @@ struct ContentView: View {
         VStack {
             Image("画像")
                 .resizable()
+                .aspectRatio(contentMode: .fit)
             Text("Hello, World!")
         }
     }
