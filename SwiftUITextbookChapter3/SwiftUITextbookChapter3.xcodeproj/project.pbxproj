@@ -13,6 +13,7 @@
 		FD78B847244E9A6A00233E5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD78B846244E9A6A00233E5A /* Assets.xcassets */; };
 		FD78B84A244E9A6A00233E5A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD78B849244E9A6A00233E5A /* Preview Assets.xcassets */; };
 		FD78B84D244E9A6A00233E5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD78B84B244E9A6A00233E5A /* LaunchScreen.storyboard */; };
+		FD78B855244FE5CD00233E5A /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD78B854244FE5CC00233E5A /* SwiftUIView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		FD78B849244E9A6A00233E5A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FD78B84C244E9A6A00233E5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FD78B84E244E9A6A00233E5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD78B854244FE5CC00233E5A /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				FD78B840244E9A6100233E5A /* AppDelegate.swift */,
 				FD78B842244E9A6100233E5A /* SceneDelegate.swift */,
 				FD78B844244E9A6100233E5A /* ContentView.swift */,
+				FD78B854244FE5CC00233E5A /* SwiftUIView.swift */,
 				FD78B846244E9A6A00233E5A /* Assets.xcassets */,
 				FD78B84B244E9A6A00233E5A /* LaunchScreen.storyboard */,
 				FD78B84E244E9A6A00233E5A /* Info.plist */,
@@ -148,6 +151,7 @@
 			files = (
 				FD78B841244E9A6100233E5A /* AppDelegate.swift in Sources */,
 				FD78B843244E9A6100233E5A /* SceneDelegate.swift in Sources */,
+				FD78B855244FE5CD00233E5A /* SwiftUIView.swift in Sources */,
 				FD78B845244E9A6100233E5A /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
