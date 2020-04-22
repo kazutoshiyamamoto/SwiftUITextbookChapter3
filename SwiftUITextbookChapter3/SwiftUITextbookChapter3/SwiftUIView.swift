@@ -10,8 +10,8 @@ import SwiftUI
 
 struct SwiftUIView: View {
     var body: some View {
-        Rectangle()
-            .foregroundColor(/*@START_MENU_TOKEN@*/.blue/*@END_MENU_TOKEN@*/)
+        RoundedRectangle(cornerRadius: 50.0)
+            .foregroundColor(.blue)
             .frame(width: 200.0, height: 400.0)
     }
 }
