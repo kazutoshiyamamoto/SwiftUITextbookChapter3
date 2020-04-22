@@ -10,9 +10,9 @@ import SwiftUI
 
 struct SwiftUIView: View {
     var body: some View {
-        RoundedRectangle(cornerRadius: 50.0)
+        Capsule()
             .foregroundColor(.blue)
-            .frame(width: 200.0, height: 400.0)
+            .frame(width: 250.0, height: 100.0)
     }
 }
 
