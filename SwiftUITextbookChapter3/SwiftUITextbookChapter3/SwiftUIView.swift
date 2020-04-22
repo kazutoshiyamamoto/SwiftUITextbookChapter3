@@ -11,6 +11,7 @@ import SwiftUI
 struct SwiftUIView: View {
     var body: some View {
         Circle()
+            .foregroundColor(/*@START_MENU_TOKEN@*/.blue/*@END_MENU_TOKEN@*/)
     }
 }
 
