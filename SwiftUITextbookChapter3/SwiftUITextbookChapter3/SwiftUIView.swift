@@ -10,11 +10,22 @@ import SwiftUI
 
 struct SwiftUIView: View {
     var body: some View {
-        Ellipse()
-            .foregroundColor(.blue)
-            .frame(width: 200.0, height: 400.0)
-            .rotationEffect(.degrees(45.0))
-            .clipped()
+        ZStack {
+            Ellipse()
+                .stroke(lineWidth: 4.0)
+                .foregroundColor(.pink)
+                .frame(width: 100, height: 300)
+            Ellipse()
+                .stroke(lineWidth: 4.0)
+                .foregroundColor(.purple)
+                .frame(width: 100, height: 300)
+                .rotationEffect(.degrees(30.0), anchor: .bottom)
+            Ellipse()
+                .stroke(lineWidth: 4.0)
+                .foregroundColor(.green)
+                .frame(width: 100, height: 300)
+                .rotationEffect(.degrees(-30.0), anchor: .bottom)
+        }
     }
 }
 
