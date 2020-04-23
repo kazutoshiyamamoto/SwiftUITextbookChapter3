@@ -23,6 +23,15 @@ struct Hello: View {
     }
 }
 
+// イメージビューの定義
+struct Flower: View {
+    var body: some View {
+        Image("画像")
+            .resizable()
+            .aspectRatio(contentMode: .fit)
+    }
+}
+
 struct SwiftUIView3_Previews: PreviewProvider {
     static var previews: some View {
         SwiftUIView3()
