@@ -15,6 +15,7 @@
 		FD78B84D244E9A6A00233E5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD78B84B244E9A6A00233E5A /* LaunchScreen.storyboard */; };
 		FD78B855244FE5CD00233E5A /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD78B854244FE5CC00233E5A /* SwiftUIView.swift */; };
 		FD78B857244FEDE700233E5A /* SwiftUIView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD78B856244FEDE700233E5A /* SwiftUIView2.swift */; };
+		FD78B859245155B100233E5A /* SwiftUIView3.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD78B858245155B100233E5A /* SwiftUIView3.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		FD78B84E244E9A6A00233E5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FD78B854244FE5CC00233E5A /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
 		FD78B856244FEDE700233E5A /* SwiftUIView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView2.swift; sourceTree = "<group>"; };
+		FD78B858245155B100233E5A /* SwiftUIView3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView3.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 				FD78B844244E9A6100233E5A /* ContentView.swift */,
 				FD78B854244FE5CC00233E5A /* SwiftUIView.swift */,
 				FD78B856244FEDE700233E5A /* SwiftUIView2.swift */,
+				FD78B858245155B100233E5A /* SwiftUIView3.swift */,
 				FD78B846244E9A6A00233E5A /* Assets.xcassets */,
 				FD78B84B244E9A6A00233E5A /* LaunchScreen.storyboard */,
 				FD78B84E244E9A6A00233E5A /* Info.plist */,
@@ -154,6 +157,7 @@
 			files = (
 				FD78B841244E9A6100233E5A /* AppDelegate.swift in Sources */,
 				FD78B843244E9A6100233E5A /* SceneDelegate.swift in Sources */,
+				FD78B859245155B100233E5A /* SwiftUIView3.swift in Sources */,
 				FD78B857244FEDE700233E5A /* SwiftUIView2.swift in Sources */,
 				FD78B855244FE5CD00233E5A /* SwiftUIView.swift in Sources */,
 				FD78B845244E9A6100233E5A /* ContentView.swift in Sources */,
