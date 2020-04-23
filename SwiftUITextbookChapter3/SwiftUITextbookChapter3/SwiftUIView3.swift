@@ -10,7 +10,15 @@ import SwiftUI
 
 struct SwiftUIView3: View {
     var body: some View {
-        Text("Hello, World!")
+        HStack {
+            Flower()
+            Hello()
+                .font(.system(size: 40.0))
+                .padding()
+            Flower()
+        }
+        .frame(height: 100.0)
+        .padding()
     }
 }
 
